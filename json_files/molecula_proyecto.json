@@ -1,0 +1,33 @@
+{
+  "project_name": "Proyecto Demo",
+  "scope": "Aplicativo demostrativo terminado",
+  "expected_benefit": "Mayor velocidad de procesamiento de permisos",
+  "deliverables": [
+    {
+      "id": "ent1",
+      "name": "Diseño del prototipo",
+      "duration_days": 5,
+      "planned_value": 3000,
+      "planned_cost": 2000,
+      "quality_parameters": {
+        "completitud": 0.8,
+        "claridad": 0.9,
+        "viabilidad": 0.7
+      },
+      "dependencies": []
+    },
+    {
+      "id": "ent2",
+      "name": "Desarrollo del prototipo",
+      "duration_days": 10,
+      "planned_value": 8000,
+      "planned_cost": 6000,
+      "quality_parameters": {
+        "completitud": 0.6,
+        "claridad": 0.7,
+        "viabilidad": 0.85
+      },
+      "dependencies": ["ent1"]
+    }
+  ]
+}
