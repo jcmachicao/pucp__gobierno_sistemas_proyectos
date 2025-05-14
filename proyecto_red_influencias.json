@@ -1,0 +1,32 @@
+{
+  "elements": [
+    { "id": "F1", "label": "Gestión contractual con proveedores", "type": "Factor" },
+    { "id": "F2", "label": "Disponibilidad de herramientas especializadas", "type": "Factor" },
+    { "id": "F3", "label": "Sincronización de tareas de ensamblaje", "type": "Factor" },
+    
+    { "id": "C1", "label": "Frenos hidráulicos", "type": "Componente" },
+    { "id": "C2", "label": "Transmisión (cambio y cadena)", "type": "Componente" },
+    { "id": "C3", "label": "Ruedas y neumáticos", "type": "Componente" },
+    { "id": "C4", "label": "Suspensión delantera", "type": "Componente" },
+    { "id": "C5", "label": "Marco (cuadro principal)", "type": "Componente" }
+  ],
+  "connections": [
+    { "from": "F1", "to": "C1", "type": "afecta" },
+    { "from": "F1", "to": "C2", "type": "afecta" },
+    { "from": "F1", "to": "C4", "type": "afecta" },
+
+    { "from": "F2", "to": "C1", "type": "afecta" },
+    { "from": "F2", "to": "C3", "type": "afecta" },
+    { "from": "F2", "to": "C5", "type": "afecta" },
+
+    { "from": "F3", "to": "C2", "type": "afecta" },
+    { "from": "F3", "to": "C4", "type": "afecta" },
+    { "from": "F3", "to": "C5", "type": "afecta" },
+
+    { "from": "C1", "to": "C5", "type": "requiere estructura de" },
+    { "from": "C2", "to": "C5", "type": "requiere estructura de" },
+    { "from": "C4", "to": "C5", "type": "requiere estructura de" },
+    { "from": "C3", "to": "C4", "type": "se monta sobre" },
+    { "from": "C2", "to": "C3", "type": "transfiere movimiento a" }
+  ]
+}
