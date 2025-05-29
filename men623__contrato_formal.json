@@ -1,0 +1,53 @@
+{
+  "contratoFormal": {
+    "identificacion": {
+      "numero": "CONT-2024-001",
+      "partes": ["Cliente Energy Corp", "Contractor Solar Solutions"],
+      "objeto": "Construcción de planta solar 100MW",
+      "valor": 85000000,
+      "plazo": "18 meses"
+    },
+    "alcance": {
+      "entregables": [
+        "Diseño de ingeniería",
+        "Suministro de equipos",
+        "Construcción y montaje",
+        "Puesta en marcha"
+      ],
+      "especificaciones": {
+        "capacidad": "100 MW",
+        "tecnologia": "Paneles silicio monocristalino",
+        "eficiencia": ">22%"
+      }
+    },
+    "cronograma": {
+      "hitos": [
+        {"nombre": "Diseño aprobado", "fecha": "2024-09-30"},
+        {"nombre": "Equipos en sitio", "fecha": "2025-03-30"},
+        {"nombre": "Construcción completa", "fecha": "2025-09-30"}
+      ]
+    }
+  },
+  "contratoSistemico": {
+    "beneficioObjetivo": {
+      "descripcion": "Incrementar flexibilidad del sistema eléctrico nacional",
+      "metricas": [
+        {"nombre": "Reducción emisiones CO2", "meta": "120,000 ton/año"},
+        {"nombre": "Factor de capacidad", "meta": ">25%"},
+        {"nombre": "Disponibilidad", "meta": ">98%"}
+      ]
+    },
+    "contextoSistemico": {
+      "stakeholders": [
+        "Operador del sistema eléctrico",
+        "Comunidades locales",
+        "Regulador energético"
+      ],
+      "interdependencias": [
+        "Red de transmisión existente",
+        "Otros proyectos renovables",
+        "Demanda energética regional"
+      ]
+    }
+  }
+}

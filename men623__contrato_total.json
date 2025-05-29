@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "fechaCreacion": "2024-06-01",
+    "responsable": "Gestor de Proyecto Sistémico"
+  },
+  "contratoFormal": {
+    "identificacion": {
+      "numero": "CONT-2024-001",
+      "partes": {
+        "cliente": {
+          "nombre": "Energy Corp SA",
+          "tipo": "Generador eléctrico",
+          "contacto": "gerencia@energycorp.com"
+        },
+        "contratista": {
+          "nombre": "Solar Solutions Ltd",
+          "tipo": "EPC Contractor",
+          "contacto": "projects@solarsolutions.com"
+        }
+      },
+      "objeto": "Construcción llave en mano de planta solar fotovoltaica",
+      "valorTotal": 85000000,
+      "moneda": "USD",
+      "plazoTotal": "18 meses",
+      "fechaInicio": "2024-07-01"
+    },
+    "alcanceDetallado": {
+      "paquetesTrabajo": [
+        {
+          "id": "WP001",
+          "nombre": "Ingeniería de Detalle",
+          "entregables": ["Planos constructivos", "Especificaciones técnicas"],
+          "criteriosAceptacion": ["Aprobación cliente", "Cumplimiento normativa"],
+          "valor": 5000000,
+          "duracion": "4 meses"
+        },
+        {
+          "id": "WP002", 
+          "nombre": "Suministro de Equipos",
+          "entregables": ["Paneles solares", "Inversores", "Estructura de montaje"],
+          "criteriosAceptacion": ["Certificaciones", "Pruebas de calidad"],
+          "valor": 45000000,
+          "duracion": "8 meses"
+        }
+      ],
+      "especificacionesTecnicas": {
+        "capacidadNominal": "100 MW",
+        "tecnologiaPaneles": "Silicio monocristalino",
+        "eficienciaMinima": 22.5,
+        "vidaUtilMinima": 25,
+        "garantiaRendimiento": "Degradación <0.5% anual"
+      }
+    },
+    "condicionesComerciales": {
+      "precioFijo": true,
+      "modalidadPago": "Hitos + retención",
+      "adelanto": 15,
+      "retencionGarantia": 10,
+      "penalidades": {
+        "retraso": "0.1% valor total por día",
+        "rendimiento": "Ajuste proporcional si <95% especificado"
+      }
+    },
+    "gestionRiesgos": {
+      "riesgosCliente": ["Permisos", "Acceso al sitio", "Conexión a red"],
+      "riesgosContratista": ["Diseño", "Suministro", "Construcción", "Rendimiento"],
+      "riesgosCompartidos": ["Fuerza mayor", "Cambios normativos"]
+    }
+  },
+  "contratoSistemico": {
+    "visionSistemica": {
+      "beneficioPrimario": "Diversificar matriz energética nacional con fuente limpia y confiable",
+      "beneficiosSecundarios": [
+        "Reducir dependencia combustibles fósiles",
+        "Crear empleos locales en sector renovable", 
+        "Mejorar calidad del aire regional"
+      ],
+      "horizonteTemporal": "25 años operación"
+    },
+    "metricasBeneficio": {
+      "economicas": [
+        {
+          "nombre": "LCOE (Levelized Cost of Energy)",
+          "meta": "<0.045 USD/kWh",
+          "medicion": "Anual durante operación"
+        },
+        {
+          "nombre": "TIR del proyecto",
+          "meta": ">12%",
+          "medicion": "Evaluación financiera"
+        }
+      ],
+      "ambientales": [
+        {
+          "nombre": "Reducción emisiones CO2",
+          "meta": "150,000 ton CO2eq/año",
+          "medicion": "Cálculo basado en generación vs. mix eléctrico"
+        },
+        {
+          "nombre": "Ahorro agua",
+          "meta": "200,000 m3/año vs. generación térmica",
+          "medicion": "Comparativo con centrales térmicas sustituidas"
+        }
+      ],
+      "sociales": [
+        {
+          "nombre": "Empleos creados",
+          "meta": "300 durante construcción + 15 permanentes",
+          "medicion": "Conteo directo + indirectos estimados"
+        },
+        {
+          "nombre": "Transferencia tecnológica",
+          "meta": "5 técnicos locales certificados",
+          "medicion": "Programa capacitación"
+        }
+      ],
+      "sistemicas": [
+        {
+          "nombre": "Factor de capacidad",
+          "meta": ">28%",
+          "medicion": "Generación real / Generación teórica máxima"
+        },
+        {
+          "nombre": "Disponibilidad",
+          "meta": ">98%",
+          "medicion": "Tiempo operativo / Tiempo total"
+        }
+      ]
+    },
+    "ecosistemaSistema": {
+      "stakeholdersDirectos": [
+        {
+          "nombre": "Operador Sistema Eléctrico Nacional",
+          "interes": "Estabilidad y confiabilidad del sistema",
+          "influencia": "Alta",
+          "gestion": "Coordinación técnica permanente"
+        },
+        {
+          "nombre": "Regulador Energético",
+          "interes": "Cumplimiento normativo y tarifario",
+          "influencia": "Alta",
+          "gestion": "Reportes regulatorios periódicos"
+        }
+      ],
+      "stakeholdersIndirectos": [
+        {
+          "nombre": "Comunidades aledañas",
+          "interes": "Impacto ambiental y social positivo",
+          "influencia": "Media",
+          "gestion": "Programa de relacionamiento comunitario"
+        },
+        {
+          "nombre": "Otros generadores renovables",
+          "interes": "Complementariedad operativa",
+          "influencia": "Baja",
+          "gestion": "Coordinación a través del operador"
+        }
+      ]
+    },
+    "interdependenciasCriticas": [
+      {
+        "elemento": "Línea de transmisión 230kV",
+        "tipo": "Infraestructura",
+        "impacto": "Crítico - sin ella no hay evacuación",
+        "gestion": "Seguimiento proyecto paralelo de refuerzo"
+      },
+      {
+        "elemento": "Otros proyectos solares zona",
+        "tipo": "Complementariedad",
+        "impacto": "Medio - puede afectar precio de mercado",
+        "gestion": "Monitoreo desarrollo competencia"
+      },
+      {
+        "elemento": "Demanda energética regional",
+        "tipo": "Mercado",
+        "impacto": "Alto - determina despacho y precios",
+        "gestion": "Análisis prospectivo continuo"
+      }
+    ],
+    "escenarios": {
+      "optimista": {
+        "descripcion": "Condiciones favorables todos los frentes",
+        "factorCapacidad": 32,
+        "tirProyecto": 15,
+        "beneficioSocial": "Alto impacto empleo local"
+      },
+      "base": {
+        "descripcion": "Condiciones esperadas según estudios",
+        "factorCapacidad": 28,
+        "tirProyecto": 12,
+        "beneficioSocial": "Cumplimiento compromisos mínimos"
+      },
+      "pesimista": {
+        "descripcion": "Condiciones adversas pero manejables",
+        "factorCapacidad": 24,
+        "tirProyecto": 9,
+        "beneficioSocial": "Impacto social limitado"
+      }
+    },
+    "protocolosDecision": {
+      "tensionCumplimientoVsBeneficio": {
+        "descripcion": "Qué hacer cuando cumplir el contrato formal puede comprometer el beneficio sistémico",
+        "proceso": [
+          "Identificar la tensión específica",
+          "Evaluar impacto en métricas sistémicas",
+          "Analizar alternativas de solución",
+          "Consensuar con stakeholders clave",
+          "Documentar decisión y ajustes"
+        ],
+        "ejemplos": [
+          {
+            "situacion": "Cambio tecnológico que mejora eficiencia pero aumenta costo",
+            "analisis": "Evaluar si mejora LCOE y beneficio a largo plazo",
+            "decision": "Si TIR sistémico mejora, negociar ajuste contractual"
+          }
+        ]
+      },
+      "gestionCambios": {
+        "criterios": [
+          "¿Mejora el beneficio sistémico?",
+          "¿Es viable técnica y económicamente?",
+          "¿Cuenta con apoyo de stakeholders clave?",
+          "¿Los riesgos son manejables?"
+        ],
+        "proceso": "Evaluación dual: contractual + sistémica"
+      }
+    }
+  },
+  "herramientasGestion": {
+    "dashboard": {
+      "metricas": ["Avance físico", "Cumplimiento hitos", "Métricas beneficio sistémico"],
+      "alertas": ["Desviaciones críticas", "Tensiones cumplimiento-beneficio"],
+      "reportes": ["Semanal a equipo", "Mensual a stakeholders", "Trimestral sistémico"]
+    },
+    "matriz_alineacion": {
+      "descripcion": "Vincula cada elemento contractual con su impacto sistémico",
+      "estructura": "Elemento formal -> Función sistémica -> Métrica beneficio"
+    }
+  }
+}
